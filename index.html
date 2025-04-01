@@ -26,34 +26,41 @@
   <!-- Navbar-->
   <nav class="navbar fixed-top navbar-expand-lg navbar-light navcas" data-aos="fade-down">
     <div class="container">
-      <a class="navbar-img" href="#">
-        <img src="./img/card-01.webp" alt="..." height="36">
-      </a> <a class="navbar-brand" href="#">HYDROPOWER</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link  " aria-current="page" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#About">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Services">Hoses</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#features">Products</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
+        <!-- Wrap logo and brand together -->
+        <div class="d-flex align-items-center">
+            <a class="navbar-img" href="#">
+                <img src="./img/card-01.webp" alt="..." height="36">
+            </a>
+            <a class="navbar-brand ms-2" href="#">HYDROPOWER</a> <!-- Added `ms-2` for spacing -->
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Services">Hoses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
     </div>
-  </nav>
+</nav>
+
 
   <!-- Hero-->
   <section id="home" class="bg-cover hero-section" style="background-image: url(./img/cover_1.webp);">
